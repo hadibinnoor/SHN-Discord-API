@@ -1,6 +1,7 @@
 import discord
 from decouple import config
 from keep_alive import keep_alive
+from utils import get_random_joke
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
@@ -17,7 +18,8 @@ async def on_message(message):
         return
 
     if client.user.mentioned_in(message):
-        await message.channel.send('Hello There')
+        joke = get_random_joke()
+        await message.channel.send(joke)
 
 keep_alive()
 client.run(config('TOKEN'))
