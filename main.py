@@ -1,6 +1,7 @@
 import discord
 from decouple import config
 from keep_alive import keep_alive
+from utils import generate_random_url
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
@@ -17,7 +18,7 @@ async def on_message(message):
         return
 
     if client.user.mentioned_in(message):
-        await message.channel.send('hello')
+        await message.channel.send(generate_random_url())
 
 keep_alive()
 client.run(config('TOKEN'))
