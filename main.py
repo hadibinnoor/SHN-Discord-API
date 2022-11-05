@@ -1,7 +1,9 @@
 import discord
 from decouple import config
 from keep_alive import keep_alive
-client = discord.Client()
+
+intents = discord.Intents.default()
+client = discord.Client(intents=intents)
 
 
 @client.event
