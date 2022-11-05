@@ -1,7 +1,6 @@
 import discord
 from decouple import config
 from keep_alive import keep_alive
-from utils import get_random_joke
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
