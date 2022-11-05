@@ -1,29 +1,24 @@
-# SHN-Discord-\_API
-
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
   <a href="https://github.com/rijfas/saturday-hack-night-dialogflow">
-    <img src="images/logo.jpg" alt="Logo">
+    <img src="images/logo.jpg" width="250" height="250" alt="Logo">
   </a>
 
-  <h3 align="center">Alpha Bot</h3>
+  <h2 align="center"><b>Memer Bot</b></h2>
 
   <p align="center">
-    Simple virtual friend lives in your cli (now in discord bot too)!
+    A Simple Discord Meme Generator Bot 
     <br />
-    <a href="https://github.com/rijfas/saturday-hack-night-dialogflow"><strong>Explore the docs »</strong></a>
-    <br />
+    <a href="https://github.com/hadibinnoor/SHN-Discord-API"><strong>Explore the docs »</strong></a>
     <br />
     <a href="https://discord.com/api/oauth2/authorize?client_id=1038441968776257566&permissions=67648&scope=bot%20applications.commands">Add to your discord server</a>
     ·
-    <a href="https://github.com/github.com/rijfas/saturday-hack-night-dialogflow/issues">Report Bug</a>
+    <a href="https://github.com/hadibinnoor/SHN-Discord-API/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github.com/rijfas/saturday-hack-night-dialogflow/issues">Request Feature</a>
+    <a href="https://github.com/hadibinnoor/SHN-Discord-API/issues">Request Feature</a>
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
+<br>
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -50,46 +45,29 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+<br>
 
 ## About The Project
 
-### CLI Example
-
----
-
-<img src="images/out_1.png" alt="CLI Example">
-
-<br>
-<br>
-
-### Discord Example
-
----
-
-<img src="images/out_2.png" alt="Discord Example">
-
-Alpha bot is a virtual friend who does simple calculations,crack jokes,tell to stories and also give you a great chitchat.Alpha bot is purely built with python.
+Memer Bot is a virtual friend who generate Memes.
 You could deploy him as discord bot or CLI tool
 
 Here's why:
 
 - It keeps your discord server alive.
 - It gives you relief when you get weird by errors
-- It also give you a great talk
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 - [Python](https://www.python.org/)
 - [Flask](https://flask.palletsprojects.com/)
 - [Replit](https://replit.com/)
-- [DialogFlow](https://dialogflow.cloud.google.com/#/getStarted)
 - [UptimeRobot](https://uptimerobot.com/)
 
 <!-- GETTING STARTED -->
+
+<br>
 
 ## Getting Started
 
@@ -104,18 +82,19 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/rijfas/saturday-hack-night-dialogflow.git
+   https://github.com/hadibinnoor/SHN-Discord-API
    ```
 2. Install required packages
    ```sh
    pip install -r requirements.txt
    ```
-3. Enter your API in `config.py`
+3. Enter your TOKEN
    ```py
-   API_URL = 'YOUR API URL'
+   TOKEN = ''
    ```
 
 <!-- USAGE EXAMPLES -->
+<br>
 
 ## Usage
 
@@ -125,40 +104,24 @@ You can just run the cli tool or use a cloud system to deploy the bot.
 
 1. Change to cli directory
    ```sh
-   cd cli
+   cd SHN-DISCORD-API
    ```
-2. Run alpha.py
+2. Run main.py
    ```sh
-   python alpha.py
+   python main.py
    ```
 
 ### Using the discord bot
 
-1. <a href="https://discord.com/oauth2/authorize?client_id=868410422536052786&scope=bot">Add</a> bot to your discord server
-2. Mention @Alpha Bot and give a message
-3. Example messages (Can handle small talks too!)
-   - @ALpha Bot hi
-   - @Alpha Bot one + one
-   - @Alpha Bot tell me a joke
-   - @Alpha Bot how are you
+1. <a href="https://discord.com/api/oauth2/authorize?client_id=1038441968776257566&permissions=67648&scope=bot%20applications.commands">Add</a> bot to your discord server
+2. Just Mention @Memer Bot
+3. tadaa😃 
 
-### Creating custom discord bot
+## Example
+<img src="snapshots/snap.png" alt="Discord Example">
 
-1. Add package alpha to your bot server
-2. Get Alpha singleton
 
-```py
- alpha = Alpha.instance()
-```
 
-3. Use execute(message) to handle user messages
-
-```py
- response = alpha.execute('hi')
- print(response)
-```
-
-<!-- ROADMAP -->
 
 ## Roadmap
 
@@ -184,18 +147,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 
-## Contact
-
-Rijfas - [@rijfas](https://github.com/rijfas) - rijfas01@gmail.com
-
-Project Link: [https://github.com/rijfas/saturday-hack-night-dialogflow](https://github.com/rijfas/saturday-hack-night-dialogflow)
-
-<!-- CONTRIBUTERS -->
 
 ## Contributers
 
-- [Amjad CP](https://github.com/amjadcp) [Bot deployment and handling]
-- [Rijfas](https://github.com/rijfas) [Core design and CLI]
-- [Nidha Shoukath](https://github.com/nidhashoukhath) [DialogFlow API Handling]
+- [Rijfas](https://github.com/rijfas) 
+- [Adhil Ameen ](https://github.com/adhilameenet) 
+- [Hadi Bin Noor](https://github.com/hadibinnoor) 
 
 ---
