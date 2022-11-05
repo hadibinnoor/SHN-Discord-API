@@ -118,7 +118,7 @@ You can just run the cli tool or use a cloud system to deploy the bot.
 3. tadaa😃 
 
 ## Example
-<img src="snapshots/snap.png" alt="Discord Example">
+<img src="./sample.png" alt="Discord Example">
 
 
 
