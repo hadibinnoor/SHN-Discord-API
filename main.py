@@ -18,8 +18,7 @@ async def on_message(message):
         return
 
     if client.user.mentioned_in(message):
-        joke = get_random_joke()
-        await message.channel.send(joke)
+        await message.channel.send('hello')
 
 keep_alive()
 client.run(config('TOKEN'))
